@@ -1,46 +1,55 @@
-# Getting Started with Create React App
+# Formula Input App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React-based formula input application that allows users to enter and calculate formulas dynamically. The app features an interactive input field with real-time validation, autocomplete suggestions, and dropdown value adjustments.
 
-## Available Scripts
+## 🚀 Features
+- **Formula Parsing & Calculation**: Supports arithmetic operations (+, -, *, /, ^, ())
+- **Tag-based Input**: Each element in the formula (numbers, operators, variables) is treated as a separate tag
+- **Autocomplete Suggestions**: Dynamically fetches and suggests variables
+- **Dropdown for Variable Values**: Allows modifying variable values inside a dropdown
+- **Formula Validation**: Displays an error message if the formula is invalid
+- **State Management**: Uses Zustand for local state and React Query for API requests
 
-In the project directory, you can run:
+## 🛠️ Setup & Installation
+### 1. Clone the Repository
+```bash
+git clone git@github.com:MyroslavTiuk/formula-app.git
+cd formula-app
+```
 
-### `npm start`
+### 2. Install Dependencies
+```bash
+npm install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 3. Start the Development Server
+```bash
+npm start
+```
+The application will run on `http://localhost:3000`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📦 Build & Deployment
+To create a production build, run:
+```bash
+npm run build
+```
 
-### `npm test`
+For deployment, the project is hosted on **Vercel**.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🔗 **Live Demo:** _[https://formula-app-alpha.vercel.app/]_  
 
-### `npm run build`
+## 📜 What’s Implemented
+- **Fully functional formula input UI** similar to Causal’s formula editor
+- **Dropdowns for variable values** with real-time updates
+- **React Query integration** for fetching suggestions
+- **Validations to prevent incorrect calculations**
+- **Beautiful UI with TailwindCSS**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📨 Submission Details
+- **GitHub Repo:** _[https://github.com/MyroslavTiuk/formula-app]_  
+- **Live Version:** _[https://formula-app-alpha.vercel.app/]_  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🤔 Need help?
+Feel free to reach out if you have any questions!
